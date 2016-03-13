@@ -1,12 +1,21 @@
-# [Ember-CLI](http://www.ember-cli.com/) completion for [Fish Shell](http://fishshell.com)
+> [Ember-CLI](http://www.ember-cli.com/) completion for [Fish Shell](http://fishshell.com)
 
-### Install
+## Install
+With [Fisherman]
+
+```
+fisher install taylon/fish-ember-completion
+```
+
+Without Fisherman:
 
 ```fish
 mkdir ~/.config/fish/completions
-wget https://raw.github.com/taylon/fish-ember-completion/master/ember.fish -O ~/.config/fish/completions/ember.fish
+wget https://raw.github.com/taylon/fish-ember-completion/master/completions/ember.fish -O ~/.config/fish/completions/ember.fish
 ```
 
 ## License
+MIT © [Taylon Silmer]
 
-MIT © [Taylon Silmer](https://github.com/taylon)
+[fisherman]: https://github.com/fisherman/fisherman
+[taylon silmer]: https://github.com/taylon
